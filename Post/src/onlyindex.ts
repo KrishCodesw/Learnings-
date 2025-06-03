@@ -1,8 +1,6 @@
 import { Client } from "pg";
 import express from "express";
-const pgClient = new Client(
-  "postgresql://neondb_owner:npg_5wm7RZCfoEMx@ep-royal-snow-a8gqugx3-pooler.eastus2.azure.neon.tech/neondb?sslmode=require"
-);
+const pgClient = new Client("Your Postgres connection string ");
   pgClient.connect();
 
 
