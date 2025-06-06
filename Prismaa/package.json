@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+
+    "dev": " tsc -b && node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "devDependencies": {
-    "@types/node": "^22.15.29",
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "@types/node": "^22.15.30",
     "prisma": "^6.9.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
